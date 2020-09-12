@@ -97,7 +97,7 @@ export default {
                 "exercise" : Number(this.$route.query.exercise)
             })
             alert('คะแนนบันทึกที่ ประวัติการทำแบบฝึกหัด แล้ว');
-            await this.$router.go(-1)
+            await this.$router.replace('/home/profile/')
         },
         
         /******* Methods default run ******/
