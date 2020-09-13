@@ -2,8 +2,7 @@
 <div class="overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
   <main class="bg-white   p-8    shadow-2xl">
         <section>
-            <h3 class="font-bold text-2xl">{{aboutText.title}}</h3>
-            <p class="text-gray-600 pt-2">{{aboutText.text}}</p>
+            <h3 class="font-bold text-xl"><b>{{aboutText.title}}{{aboutText.text}}</b></h3> 
         </section>
     <hr>
         <section class="mt-10" v-html="aboutText.body">
